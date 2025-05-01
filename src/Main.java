@@ -15,8 +15,6 @@ public class Main {
            String especialidad = sc.nextLine();
 
            cocineros[i] = new Cocineros(nombre, experiencia, especialidad);
-       }
-       for (int i = 0; i < cocineros.length; i++) {
            System.out.println("---INFORMACION DE COCINEROS---");
            cocineros[i].mostrarInfo();
        }
